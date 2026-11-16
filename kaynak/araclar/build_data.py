@@ -22,7 +22,9 @@ FIX={'prep:nothward':{'w':'northward'},
      'phr:as-well':{'m':'-de, -da'},
      'phr:as-to':{'m':'-e dair, ile ilgili'},
      'phr:with-reference-to':{'m':'ile ilgili'},
-     'phr:with-exception-of':{'w':'with the exception of'}}
+     'phr:with-exception-of':{'w':'with the exception of'},
+     'phr:as-of':{'m':'-den itibaren'},
+     'verb:correspond':{'m':'benzemek, haberleşmek'}}
 # entries that are wrong in the source and are left out (decided by the owner)
 DROP={'prep:wayward'}   # source: "yola doğru"; wayward is an adjective meaning "dik başlı, asi", not a preposition
 def load_tsv():
