@@ -32,9 +32,32 @@ FIX={'prep:nothward':{'w':'northward'},
      'noun:discretion':{'m':'akıl, sağduyu'},
      'noun:common-sense':{'m':'sağduyu'},
      'noun:instinct':{'m':'içgüdü'},
-     'noun:remain':{'w':'remains','m':'kalıntı'}}
+     'noun:remain':{'w':'remains','m':'kalıntı'},
+     'adj:additional':{'m':'ilave, ek'},
+     'adj:aggressive':{'m':'saldırgan, sinirli'},
+     'adj:hard':{'m':'zor, çetin, katı'},
+     'adj:much':{'m':'çok, pek çok'},
+     'adj:present':{'m':'şu anki, mevcut'},
+     'adj:existing':{'m':'mevcut, hâlihazırdaki'},
+     'adj:lack':{'w':'lacking','m':'yetersiz, eksik'},
+     'adj:decisive':{'m':'kesin, kati, nihai'},
+     'adj:remaining':{'m':'kalan, hâlâ var olan'},
+     'adj:representative':{'m':'temsil eden, temsilci'},
+     'adv:essentially':{'m':'aslında, gerçekte'},
+     'adv:consequently':{'m':'sonuç olarak, bu nedenle'},
+     'pv:fall-off':{'m':'düşmek, azalmak'},
+     'pv:count-on':{'m':'güvenmek, bel bağlamak'},
+     'pv:do-away-with':{'m':'yürürlükten kaldırmak, durdurmak'},
+     'pv:get-away-with':{'m':'yanına kâr kalmak, paçayı kurtarmak'},
+     'pv:make-for':{'m':'-e doğru gitmek, -e neden olmak, sağlamak'},
+     'pv:come-back':{'m':'geri dönmek, aklına gelmek'},
+     'pv:catch-up':{'m':'hızına yetişmek, tamamlamak, konuşmak'}}
 # entries that are wrong in the source and are left out (decided by the owner)
-DROP={'prep:wayward'}   # source: "yola doğru"; wayward is an adjective meaning "dik başlı, asi", not a preposition
+# usage notes for source synonyms (meaning kept, note appended)
+SYN_NOTE={('phr:a-large-amount-of','a large number of'):'çok sayıda (sayılabilen isimlerle)',
+          ('phr:a-large-amount-of','many'):'birçok (sayılabilen isimlerle)'}
+DROP={'prep:wayward',   # source: "yola doğru"; wayward is an adjective meaning "dik başlı, asi", not a preposition
+      'adj:indispensible'}   # misspelled duplicate of adj:indispensable
 def load_tsv():
     out={}
     for f in sorted((here/'icerik').glob('*.tsv')):
@@ -58,6 +81,8 @@ for c in ORDER:
         it.update(FIX.get(it['id'],{}));w=it['w']
         if it['id'] in DROP:stats['çıkarıldı']+=1;continue
         if e['syn']:it['s']=[[z[0],z[1],npos(z[2])] for z in e['syn']]
+        for z in it.get('s',[]):   # usage notes on source synonyms that differ in use
+            z[1]=SYN_NOTE.get((it['id'],z[0]),z[1])
         if e['der']:it['d']=[[z[0],z[1],npos(z[2])] for z in e['der']]
         out.append(it);stats['kelime']+=1;stats['eş(kaynak)']+=len(e['syn']);stats['türev']+=len(e['der'])
         # reuse a reviewed YÖKDİL example only for the same word in the same word class
