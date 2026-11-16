@@ -24,7 +24,15 @@ FIX={'prep:nothward':{'w':'northward'},
      'phr:with-reference-to':{'m':'ile ilgili'},
      'phr:with-exception-of':{'w':'with the exception of'},
      'phr:as-of':{'m':'-den itibaren'},
-     'verb:correspond':{'m':'benzemek, haberleşmek'}}
+     'verb:correspond':{'m':'benzemek, haberleşmek'},
+     'noun:business':{'m':'iş, iş yeri'},
+     'noun:government':{'m':'hükümet, yönetim'},
+     'noun:title':{'m':'başlık, unvan'},
+     'noun:negligence':{'m':'ihmalkârlık, ihmal'},
+     'noun:discretion':{'m':'akıl, sağduyu'},
+     'noun:common-sense':{'m':'sağduyu'},
+     'noun:instinct':{'m':'içgüdü'},
+     'noun:remain':{'w':'remains','m':'kalıntı'}}
 # entries that are wrong in the source and are left out (decided by the owner)
 DROP={'prep:wayward'}   # source: "yola doğru"; wayward is an adjective meaning "dik başlı, asi", not a preposition
 def load_tsv():
@@ -36,8 +44,8 @@ def load_tsv():
             c=l.split('\t')+['']*5;iid,en,tr,syn,conf=c[:5]
             assert '**' in en and tr.strip(),(f.name,n,l[:60])
             e={'en':en.strip(),'tr':tr.strip()}
-            if syn.strip():e['syn']=[z.split('=',1) for z in syn.split(';') if z.strip()]
-            if conf.strip():e['conf']=[(z.split('=',2)+['',''])[:3] for z in conf.split(';') if z.strip()]
+            if syn.strip():e['syn']=[[q.strip() for q in z.split('=',1)] for z in syn.split(';') if z.strip()]
+            if conf.strip():e['conf']=[[q.strip() for q in (z.split('=',2)+['',''])[:3]] for z in conf.split(';') if z.strip()]
             assert iid not in out,iid;out[iid]=e
     return out
 TSV=load_tsv()
@@ -57,6 +65,14 @@ for c in ORDER:
             if yx['w'].lower()==w.lower() and (c+':'+yx['w']) in YE:
                 EX[f'{c}:{w}']=YE[c+':'+yx['w']];stats['örnek']+=1;break
         if it['id'] in TSV:EX[f"{c}:{w}"]=TSV[it['id']];stats['yeni örnek']+=1
+        ex=EX.get(f"{c}:{w}")
+        if ex and it.get('s') and ex.get('conf'):   # a source synonym is never also listed as confusable
+            sw={z[0].lower() for z in it['s']};kept=[z for z in ex['conf'] if z[0].lower() not in sw]
+            if len(kept)!=len(ex['conf']):
+                ex=dict(ex);stats['çelişki ayıklandı']+=1
+                if kept:ex['conf']=kept
+                else:ex.pop('conf')
+                EX[f"{c}:{w}"]=ex
     DATA[c]=out
 for c in ('trans','conj','phr','corr','other'):   # grammar-only data (Gramer screens), kept as in the YÖKDİL edition
     DATA['g_'+c]=[dict(x,id='g_'+x['id']) for x in YD[c]];stats['gramer']+=len(YD[c])
