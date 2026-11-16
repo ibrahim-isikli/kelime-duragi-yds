@@ -1,6 +1,6 @@
 /* Kelime Durağı (YDS) service worker. CACHE changes whenever any asset changes.
    Other apps on the same origin (e.g. the YDS edition) keep their own caches: only this app's names are cleaned up. */
-const CACHE = 'kelime-duragi-yds-2dd76844b1';
+const CACHE = 'kelime-duragi-yds-13bdc6fbd8';
 const ASSETS = ["./", "index.html", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "icons/maskable-512.png", "icons/apple-touch-icon.png"];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS.map(u => new Request(u, { cache: 'reload' })))).then(() => self.skipWaiting()));

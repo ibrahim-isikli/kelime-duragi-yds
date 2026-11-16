@@ -17,7 +17,14 @@ FIX={'prep:nothward':{'w':'northward'},
      'conj:since':{'m':'-dığı için, çünkü, -den beri'},
      'prep:into':{'m':'-e, -a (içine doğru)'},
      'prep:near':{'m':'yakın, yakında'},
-     'prep:regarding':{'m':'ile ilgili'}}
+     'prep:regarding':{'m':'ile ilgili'},
+     'phr:the-number-of':{'m':'-ın sayısı'},
+     'phr:as-well':{'m':'-de, -da'},
+     'phr:as-to':{'m':'-e dair, ile ilgili'},
+     'phr:with-reference-to':{'m':'ile ilgili'},
+     'phr:with-exception-of':{'w':'with the exception of'}}
+# entries that are wrong in the source and are left out (decided by the owner)
+DROP={'prep:wayward'}   # source: "yola doğru"; wayward is an adjective meaning "dik başlı, asi", not a preposition
 def load_tsv():
     out={}
     for f in sorted((here/'icerik').glob('*.tsv')):
@@ -39,6 +46,7 @@ for c in ORDER:
         w=re.sub(r'\s+',' ',e['w']).strip();s=slug(w);seen[s]+=1;sid=s if seen[s]==1 else f'{s}-{seen[s]}'
         it={'id':f'{c}:{sid}','w':w,'m':e['m']}
         it.update(FIX.get(it['id'],{}));w=it['w']
+        if it['id'] in DROP:stats['çıkarıldı']+=1;continue
         if e['syn']:it['s']=[[z[0],z[1],npos(z[2])] for z in e['syn']]
         if e['der']:it['d']=[[z[0],z[1],npos(z[2])] for z in e['der']]
         out.append(it);stats['kelime']+=1;stats['eş(kaynak)']+=len(e['syn']);stats['türev']+=len(e['der'])
