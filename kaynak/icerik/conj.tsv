@@ -1,0 +1,94 @@
+conj:although	**Although** the drug reduced symptoms, it did not cure the disease.	İlaç belirtileri azaltmasına rağmen hastalığı iyileştirmedi.		despite=-e rağmen=despite + isim alır, although + cümle
+conj:though	The results were encouraging, **though** the sample was small.	Örneklem küçük olmasına rağmen sonuçlar umut vericiydi.		thought=düşünce; through=içinden
+conj:after	Symptoms usually disappear **after** treatment begins.	Belirtiler genellikle tedavi başladıktan sonra kaybolur.		afterwards=ardından=tek başına kullanılır, cümle almaz
+conj:afterwards	The patients were tested and **afterwards** interviewed by doctors.	Hastalar test edildi ve ardından doktorlarla görüştürüldü.	later=sonra; subsequently=ardından	after=-den sonra=after + cümle ya da isim alır
+conj:as	**As** the population grows, the demand for water increases.	Nüfus arttıkça su talebi de artar.		as if=-mış gibi
+conj:because	Many species are disappearing **because** their habitats are being destroyed.	Yaşam alanları yok edildiği için pek çok tür ortadan kayboluyor.		because of=yüzünden=because of + isim alır
+conj:before	Researchers obtained consent **before** the study began.	Araştırmacılar çalışma başlamadan önce onay aldı.	prior to=-den önce	beforehand=önceden=tek başına kullanılır
+conj:but	The theory is simple, **but** it explains many observations.	Kuram basit ama pek çok gözlemi açıklıyor.		butter=tereyağı
+conj:except	The museum is open every day **except** that it closes early on Mondays.	Müze, pazartesi erken kapanması dışında her gün açıktır.	apart from=dışında	accept=kabul etmek
+conj:if	**If** temperatures continue to rise, sea levels will increase.	Sıcaklıklar artmaya devam ederse deniz seviyeleri yükselecek.		whether=-ıp -madığı=seçenek bildirir
+conj:meanwhile	Prices rose sharply; **meanwhile**, wages remained the same.	Fiyatlar hızla yükseldi; bu arada ücretler aynı kaldı.		meantime=ara dönem
+conj:moreover	The method is cheap; **moreover**, it is easy to apply.	Yöntem ucuz; dahası uygulaması da kolay.		however=ancak=zıtlık bildirir
+conj:nor	The drug is not effective, **nor** is it safe for children.	İlaç etkili değil, çocuklar için güvenli de değil.		neither... nor=ne... ne de
+conj:once	**Once** the data were collected, the analysis began.	Veriler toplandıktan sonra analiz başladı.		one=bir
+conj:or	Patients must take the drug daily, **or** the infection may return.	Hastalar ilacı her gün almalı, aksi takdirde enfeksiyon geri dönebilir.		nor=ne de
+conj:provided	The plan will work **provided** that everyone cooperates.	Herkesin iş birliği yapması koşuluyla plan işe yarayacak.	on condition that=koşuluyla	provide=sağlamak
+conj:providing	You can use the lab **providing** you follow the safety rules.	Güvenlik kurallarına uymanız koşuluyla laboratuvarı kullanabilirsiniz.		provided that=koşuluyla
+conj:since	**Since** the data were incomplete, no conclusion could be reached.	Veriler eksik olduğu için hiçbir sonuca varılamadı.		since + geçmiş zaman=-den beri
+conj:so	The roads were icy, **so** the schools were closed.	Yollar buzluydu, bu yüzden okullar kapatıldı.		so that=-sın diye
+conj:unless	The disease will spread **unless** urgent measures are taken.	Acil önlemler alınmazsa hastalık yayılacak.		if not=eğer ... değilse
+conj:until	The experiment continued **until** all samples had been tested.	Deney tüm örnekler test edilene kadar devam etti.		by the time=-dığı zaman
+conj:whatsoever	There is no evidence **whatsoever** that the treatment works.	Tedavinin işe yaradığına dair hiç mi hiç kanıt yok.	at all=hiç	whatever=her ne
+conj:when	**When** water freezes, it expands.	Su donduğunda genleşir.		whenever=her ne zaman
+conj:whereas	Some birds migrate, **whereas** others stay in the same area all year.	Bazı kuşlar göç ederken diğerleri bütün yıl aynı bölgede kalır.		whereby=ki onunla
+conj:while	**While** the method is accurate, it is very expensive.	Yöntem doğru olsa da çok pahalıdır.		meanwhile=bu arada
+conj:yet	The study was small, **yet** its findings were significant.	Çalışma küçüktü ama bulguları önemliydi.		yet (olumsuz cümlede)=henüz
+conj:despite-the-fact-that	The project succeeded **despite the fact that** funding was limited.	Fon sınırlı olmasına rağmen proje başarılı oldu.		despite=-e rağmen=despite + isim alır
+conj:nonetheless	The evidence is limited; **nonetheless**, the results are promising.	Kanıtlar sınırlı; yine de sonuçlar umut verici.
+conj:however	The treatment is effective; **however**, it has serious side effects.	Tedavi etkili; ancak ciddi yan etkileri var.		moreover=dahası=ekleme bildirir
+conj:in-contrast	Urban areas are growing rapidly; **in contrast**, rural populations are declining.	Kentsel alanlar hızla büyüyor; buna karşın kırsal nüfus azalıyor.		in comparison=kıyasla
+conj:on-the-contrary	The drug did not harm patients; **on the contrary**, it improved their health.	İlaç hastalara zarar vermedi; aksine sağlıklarını iyileştirdi.	conversely=aksine	on the other hand=öte yandan=iki farklı yönü karşılaştırır
+conj:nevertheless	The task was difficult; **nevertheless**, the team completed it on time.	Görev zordu; yine de ekip onu zamanında tamamladı.
+conj:still	The results were disappointing; **still**, the researchers did not give up.	Sonuçlar hayal kırıklığı yarattı; yine de araştırmacılar pes etmedi.		still (zarf)=hâlâ
+conj:conversely	Higher prices reduce demand; **conversely**, lower prices increase it.	Yüksek fiyatlar talebi azaltır; tersine düşük fiyatlar artırır.	on the contrary=aksine	conversation=sohbet
+conj:on-the-other-hand	Solar power is clean; **on the other hand**, it depends on the weather.	Güneş enerjisi temiz; öte yandan hava koşullarına bağlı.	however=ancak	on the contrary=aksine
+conj:thus	The new engine uses less fuel and **thus** reduces emissions.	Yeni motor daha az yakıt kullanır ve böylece emisyonları azaltır.		though=-e rağmen
+conj:furthermore	The policy is unfair; **furthermore**, it is too expensive.	Politika adaletsiz; ayrıca çok pahalı.		further=daha fazla, daha ileri
+conj:what-is-more	The house was cheap; **what is more**, it was close to the city centre.	Ev ucuzdu; üstelik şehir merkezine yakındı.		what=ne
+conj:hence	The material is light and strong, **hence** its use in aircraft.	Malzeme hafif ve sağlamdır, bu yüzden uçaklarda kullanılır.		henceforth=bundan sonra
+conj:therefore	The sample was small; **therefore**, the results cannot be generalised.	Örneklem küçüktü; bu nedenle sonuçlar genellenemez.		thereafter=ondan sonra
+conj:consequently	The factory closed and **consequently** many people lost their jobs.	Fabrika kapandı ve sonuç olarak pek çok kişi işini kaybetti.		subsequently=ardından
+conj:as-a-result	Rainfall decreased; **as a result**, crop yields fell.	Yağış azaldı; sonuç olarak ürün verimi düştü.		as a result of=-in sonucu olarak=isim alır
+conj:as-a-consequence	The river flooded and, **as a consequence**, many homes were damaged.	Nehir taştı ve sonuç olarak pek çok ev hasar gördü.		consequently=bu yüzden=aynı anlam
+conj:on-condition-that	The loan was approved **on condition that** it was repaid within a year.	Kredi bir yıl içinde geri ödenmesi koşuluyla onaylandı.		in the event that=-mesi durumunda
+conj:as-long-as	The bridge is safe **as long as** it is regularly inspected.	Köprü düzenli olarak denetlendiği sürece güvenlidir.		as far as=-dığı kadarıyla
+conj:so-long-as	**So long as** patients follow the diet, their condition improves.	Hastalar diyete uyduğu sürece durumları iyileşir.		so that=-sın diye
+conj:only-if	The vaccine works **only if** it is stored at low temperatures.	Aşı ancak düşük sıcaklıkta saklanırsa işe yarar.	provided that=koşuluyla	if only=keşke
+conj:suppose-that	**Suppose that** the experiment fails; what would we do next?	Deneyin başarısız olduğunu varsay; sonra ne yapardık?	supposing=varsayalım ki	supposed to=-mesi gerekiyor
+conj:otherwise	Wear protective glasses; **otherwise**, you may damage your eyes.	Koruyucu gözlük takın; aksi takdirde gözlerinize zarar verebilirsiniz.		other=diğer
+conj:or-else	The pipes must be repaired, **or else** the building will flood.	Borular onarılmalı, yoksa binayı su basacak.
+conj:as-soon-as	The alarm sounds **as soon as** smoke is detected.	Duman algılanır algılanmaz alarm çalar.	immediately=-ır -maz	as long as=-dığı sürece
+conj:by-the-time	**By the time** the ambulance arrived, the patient had recovered.	Ambulans geldiğinde hasta kendine gelmişti.		until=-e kadar
+conj:besides	The job is well paid; **besides**, it is interesting.	İş iyi para veriyor; ayrıca ilginç.		beside=yanında
+conj:just-as	**Just as** plants need light, animals need food.	Tıpkı bitkilerin ışığa ihtiyaç duyması gibi hayvanlar da besine ihtiyaç duyar.		just=sadece
+conj:as-far-as	**As far as** we know, the virus does not affect animals.	Bildiğimiz kadarıyla virüs hayvanları etkilemiyor.		as long as=-dığı sürece
+conj:so-that	The text was simplified **so that** children could understand it.	Metin, çocuklar anlayabilsin diye sadeleştirildi.	in order that=-sın diye	so=bu yüzden
+conj:as-if	The patient behaved **as if** nothing had happened.	Hasta hiçbir şey olmamış gibi davrandı.		as=-dığı için
+conj:as-though	It looks **as though** the economy is recovering.	Ekonomi toparlanıyor gibi görünüyor.		though=-e rağmen
+conj:now-that	**Now that** the data are available, we can test the theory.	Veriler artık mevcut olduğuna göre kuramı test edebiliriz.	since=-dığı için	now=şimdi
+conj:as-such	He is the team leader and, **as such**, is responsible for safety.	O, ekip lideri ve bu sıfatla güvenlikten sorumlu.		such as=örneğin
+conj:no-matter	**No matter** how hard they tried, they could not solve the problem.	Ne kadar uğraşırlarsa uğraşsınlar sorunu çözemediler.	regardless of=-e bakılmaksızın	matter=madde
+conj:if-only	**If only** the disease had been diagnosed earlier.	Keşke hastalık daha erken teşhis edilseydi.		only if=ancak ... ise
+conj:even-when	The machine works well **even when** temperatures are very low.	Makine sıcaklık çok düşük olduğunda bile iyi çalışır.		even if=-se bile
+conj:even-after	Some symptoms continue **even after** the infection has cleared.	Bazı belirtiler enfeksiyon geçtikten sonra bile devam eder.		after=-den sonra
+conj:even-before	The cells began to change **even before** symptoms appeared.	Hücreler belirtiler ortaya çıkmadan önce bile değişmeye başladı.		before=-den önce
+conj:even-so	The risks are small; **even so**, patients should be informed.	Riskler küçük; öyle olsa bile hastalar bilgilendirilmeli.	nevertheless=yine de	even if=-se bile
+conj:even-if	**Even if** the price falls, many people will not buy the product.	Fiyat düşse bile pek çok kişi ürünü almayacak.		even though=-e rağmen=gerçek bir durumu bildirir
+conj:in-order-that	Notes were provided **in order that** students could review the lecture.	Öğrenciler dersi tekrar edebilsin diye notlar verildi.	so that=-sın diye	in order to=-mek için=fiil alır
+conj:by-the-way	**By the way**, the meeting has been moved to Friday.	Bu arada, toplantı cumaya alındı.		by the time=-dığı zaman
+conj:that-is	The drug is taken orally, **that is**, by mouth.	İlaç oral yolla, yani ağızdan alınır.	namely=yani	that is why=bu yüzden
+conj:accordingly	The rules have changed, and we must act **accordingly**.	Kurallar değişti, buna göre hareket etmeliyiz.		according to=-e göre=isim alır
+conj:lest	The documents were locked away **lest** they be stolen.	Belgeler çalınmasın diye kilit altına alındı.	in case=olur da	least=en az
+conj:by-all-means	If you need more information, **by all means** contact us.	Daha fazla bilgiye ihtiyacınız olursa elbette bizimle iletişime geçin.	certainly=elbette	by no means=hiçbir şekilde
+conj:by-no-means	The problem is **by no means** simple.	Sorun hiçbir şekilde basit değil.	not at all=hiç	by all means=elbette
+conj:also	The drug lowers blood pressure and **also** reduces the risk of stroke.	İlaç tansiyonu düşürür ve ayrıca felç riskini de azaltır.		as well=de, da=cümle sonunda kullanılır
+conj:in-that	The two methods differ **in that** one is much faster.	İki yöntem, birinin çok daha hızlı olması bakımından farklıdır.		in which=ki onda
+conj:in-the-meantime	The new hospital will open next year; **in the meantime**, patients will be treated elsewhere.	Yeni hastane gelecek yıl açılacak; bu arada hastalar başka yerde tedavi edilecek.
+conj:as-a-matter-of-fact	The test was not difficult; **as a matter of fact**, most students passed.	Sınav zor değildi; aslında öğrencilerin çoğu geçti.		matter of course=olağan bir şey
+conj:that-is-why	The roads were flooded; **that is why** the bus was late.	Yolları su basmıştı; bu yüzden otobüs gecikti.		that is=yani
+conj:thereby	The company cut costs, **thereby** increasing its profits.	Şirket maliyetleri düşürdü ve böylece kârını artırdı.	thus=böylece	therefore=bu yüzden
+conj:and-so	The engine overheated, **and so** the flight was cancelled.	Motor aşırı ısındı ve bu nedenle uçuş iptal edildi.		and so on=ve benzeri
+conj:which-is-why	The area is very dry, **which is why** few plants grow there.	Bölge çok kurak, işte bu yüzden orada az bitki yetişir.
+conj:indeed	The results were surprising; **indeed**, no one had expected them.	Sonuçlar şaşırtıcıydı; gerçekten de kimse bunları beklemiyordu.	in fact=aslında	indeed (pekiştirme)=gerçekten de
+conj:in-fact	The drug is not harmful; **in fact**, it may protect the heart.	İlaç zararlı değil; aslında kalbi koruyabilir.		in effect=fiilen
+conj:then	Heat the water, **then** add the salt.	Suyu ısıt, ardından tuzu ekle.		than=-den daha
+conj:in-addition	The course is free; **in addition**, students receive a certificate.	Kurs ücretsiz; ayrıca öğrenciler sertifika alıyor.		in addition to=-e ek olarak=isim alır
+conj:similarly	Children need sleep to grow; **similarly**, adults need it to stay healthy.	Çocukların büyümek için uykuya ihtiyacı vardır; benzer şekilde yetişkinlerin de sağlıklı kalmak için uykuya ihtiyacı vardır.		similar=benzer
+conj:actually	Many people think the drug is new; **actually**, it has been used for decades.	Pek çok kişi ilacın yeni olduğunu düşünüyor; aslında on yıllardır kullanılıyor.		currently=şu anda
+conj:likewise	The first test was negative; **likewise**, the second showed no infection.	İlk test negatifti; aynı şekilde ikincisi de enfeksiyon göstermedi.		alike=benzer
+conj:even-then	The patient was given oxygen, but **even then** he could not breathe easily.	Hastaya oksijen verildi, ama o zaman bile rahat nefes alamadı.		even when=-dığı zaman bile
+conj:on-the-grounds-that	The proposal was rejected **on the grounds that** it was too costly.	Öneri çok maliyetli olduğu gerekçesiyle reddedildi.	because=çünkü	grounds=arazi, alan
+conj:additionally	The new system is faster; **additionally**, it uses less energy.	Yeni sistem daha hızlı; ayrıca daha az enerji kullanıyor.		additive=katkı maddesi
+conj:instead	The government did not raise taxes; **instead**, it cut spending.	Hükümet vergileri artırmadı; bunun yerine harcamaları kıstı.		instead of=-in yerine=isim alır
+conj:even-though	**Even though** the test was difficult, most students passed.	Sınav zor olmasına rağmen öğrencilerin çoğu geçti.		even if=-se bile=varsayım bildirir

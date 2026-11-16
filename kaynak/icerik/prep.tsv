@@ -1,0 +1,86 @@
+prep:of	The quality **of** the water has improved in recent years.	Suyun kalitesi son yıllarda iyileşti.	
+prep:in	Most of the population lives **in** large cities.	Nüfusun çoğu büyük şehirlerde yaşıyor.		into=-e, içine=hareket bildirir
+prep:at	The conference will be held **at** the university.	Konferans üniversitede düzenlenecek.		in=-de=daha geniş alanlar için
+prep:on	The study focuses **on** the effects of stress.	Çalışma stresin etkileri üzerinde duruyor.		onto=üzerine doğru
+prep:over	Prices have risen **over** the past ten years.	Fiyatlar son on yıl boyunca arttı.		above=üstünde=temas yok, seviye bildirir
+prep:under	The new bridge is still **under** construction.	Yeni köprü hâlâ yapım aşamasında.		below=altında=seviye bildirir
+prep:above	Temperatures rose **above** 40 degrees.	Sıcaklıklar 40 derecenin üstüne çıktı.		over=üstünde, boyunca
+prep:below	The water level is **below** normal this year.	Bu yıl su seviyesi normalin altında.		under=altında
+prep:between	There is a strong link **between** diet and health.	Beslenme ile sağlık arasında güçlü bir bağ var.		among=arasında=ikiden fazla için
+prep:among	The disease is common **among** older people.	Hastalık yaşlı insanlar arasında yaygın.		between=arasında=iki şey için
+prep:amongst	The idea became popular **amongst** young scientists.	Fikir genç bilim insanları arasında popüler oldu.	among=arasında	
+prep:by	The report was written **by** a team of experts.	Rapor bir uzman ekibi tarafından yazıldı.		until=-e kadar=süreklilik bildirir
+prep:as	She works **as** a nurse in a public hospital.	Bir devlet hastanesinde hemşire olarak çalışıyor.		like=gibi=benzetme bildirir
+prep:with	Patients **with** diabetes need regular check-ups.	Diyabet hastalarının düzenli kontrole ihtiyacı var.		within=içinde
+prep:without	No country can grow **without** investment in education.	Hiçbir ülke eğitime yatırım yapmadan büyüyemez.		with=ile
+prep:within	Results will be available **within** two weeks.	Sonuçlar iki hafta içinde hazır olacak.		without=-sız
+prep:into	The text was translated **into** several languages.	Metin birkaç dile çevrildi.		in=-de=durum bildirir
+prep:onto	The cat jumped **onto** the table.	Kedi masanın üzerine atladı.		on=üstünde=durum bildirir
+prep:during	Many trees fell **during** the storm.	Fırtına sırasında pek çok ağaç devrildi.		while=-iken=cümle alır
+prep:throughout	The museum is open **throughout** the year.	Müze yıl boyunca açıktır.		through=içinden
+prep:to	Millions of tourists travel **to** Turkey every year.	Her yıl milyonlarca turist Türkiye'ye seyahat ediyor.		too=de, çok
+prep:toward	Attitudes **toward** immigration have changed.	Göçe yönelik tutumlar değişti.
+prep:inward	The door opens **inward**.	Kapı içeri doğru açılır.		inner=iç
+prep:forward	The country is moving **forward** with economic reforms.	Ülke ekonomik reformlarla ileriye doğru ilerliyor.		foreword=önsöz
+prep:onward	From 2010 **onward**, the number of users increased rapidly.	2010'dan itibaren kullanıcı sayısı hızla arttı.		onwards=ileriye doğru=İngiliz yazımı
+prep:upward	Prices continued to move **upward**.	Fiyatlar yukarı doğru hareket etmeye devam etti.		upwards of=-den fazla
+prep:outward	The city has expanded **outward** in recent decades.	Şehir son on yıllarda dışarıya doğru genişledi.		outer=dış
+prep:downward	The plane began to move **downward**.	Uçak aşağıya doğru inmeye başladı.		downturn=gerileme
+prep:backward	He took a step **backward**.	Bir adım geriye doğru attı.		backward (sıfat)=geri kalmış
+prep:homeward	The soldiers were finally **homeward** bound.	Askerler sonunda eve doğru yola çıktı.		
+prep:leftward	The ship turned slightly **leftward**.	Gemi hafifçe sola doğru döndü.		
+prep:rightward	The road curves **rightward** after the bridge.	Yol köprüden sonra sağa doğru kıvrılıyor.		
+prep:seaward	The wind was blowing **seaward**.	Rüzgâr denize doğru esiyordu.		
+prep:southward	Many birds fly **southward** in autumn.	Pek çok kuş sonbaharda güneye doğru uçar.		
+prep:nothward	The storm is moving **northward** along the coast.	Fırtına kıyı boyunca kuzeye doğru ilerliyor.		
+prep:westward	Settlers moved **westward** in search of land.	Yerleşimciler toprak arayışıyla batıya doğru göç etti.		
+prep:eastward	The river flows **eastward** into the sea.	Nehir doğuya doğru akarak denize dökülür.		
+prep:windward	The village lies on the **windward** side of the island.	Köy adanın rüzgâra bakan tarafında.		leeward=rüzgâr altı
+prep:skyward	The rocket rose **skyward**.	Roket gökyüzüne doğru yükseldi.		
+prep:along	Trees were planted **along** the river.	Nehir boyunca ağaçlar dikildi.		alongside=yanında
+prep:alongside	Nurses work **alongside** doctors in the emergency room.	Hemşireler acil serviste doktorlarla birlikte çalışır.
+prep:along-with	The minister resigned **along with** two of his advisers.	Bakan iki danışmanıyla birlikte istifa etti.	together with=ile birlikte	
+prep:around	**Around** 70 percent of the Earth is covered by water.	Dünya'nın yaklaşık yüzde 70'i suyla kaplıdır.	about=yaklaşık	round=etrafında
+prep:round	The Earth travels **round** the Sun.	Dünya Güneş'in etrafında döner.	around=etrafında	
+prep:like	Animals **like** dolphins can communicate with sounds.	Yunuslar gibi hayvanlar seslerle iletişim kurabilir.	such as=gibi	as=olarak=rol bildirir
+prep:unlike	**Unlike** most metals, mercury is liquid at room temperature.	Çoğu metalin aksine cıva oda sıcaklığında sıvıdır.		dislike=hoşlanmamak
+prep:about	The book is **about** the history of medicine.	Kitap tıp tarihi hakkındadır.		around=yaklaşık
+prep:concerning	There are new rules **concerning** data protection.	Veri korumayla ilgili yeni kurallar var.		concerned=endişeli
+prep:regarding	The company issued a statement **regarding** the accident.	Şirket kazayla ilgili bir açıklama yaptı.		regardless=-e bakılmaksızın
+prep:for	The centre provides support **for** families in need.	Merkez ihtiyaç sahibi aileler için destek sağlıyor.		since=-den beri=başlangıç noktası bildirir
+prep:against	The vaccine protects children **against** measles.	Aşı çocukları kızamığa karşı korur.		
+prep:through	Light passes **through** the glass.	Işık camdan geçer.		throughout=boyunca
+prep:from	The data were collected **from** five hospitals.	Veriler beş hastaneden toplandı.		
+prep:up	The cost could go **up** to two million dollars.	Maliyet iki milyon dolara kadar çıkabilir.		upon=üzerine
+prep:down	Prices went **down** after the harvest.	Hasattan sonra fiyatlar düştü.		
+prep:up-to	The tank can hold **up to** 500 litres.	Depo 500 litreye kadar alabilir.		up to sb=birine kalmış
+prep:down-to	The temperature fell **down to** minus ten degrees.	Sıcaklık eksi on dereceye kadar düştü.		
+prep:except	All the students passed **except** one.	Biri hariç bütün öğrenciler geçti.		accept=kabul etmek
+prep:excepting	All members, **excepting** the chairman, voted for the plan.	Başkan hariç bütün üyeler plana oy verdi.	except=hariç	
+prep:away-from	Keep medicines **away from** children.	İlaçları çocuklardan uzak tutun.		
+prep:out	The cat ran **out** of the house.	Kedi evden dışarı koştu.		
+prep:out-of	Many people moved **out of** the city.	Pek çok kişi şehrin dışına taşındı.		out of order=bozuk
+prep:outside	The factory is just **outside** the city.	Fabrika şehrin hemen dışında.		
+prep:amid	The project continued **amid** growing criticism.	Proje artan eleştiriler ortasında devam etti.	amidst=ortasında	
+prep:amidst	The village was hidden **amidst** the trees.	Köy ağaçların ortasında gizlenmişti.	amid=ortasında	
+prep:following	**Following** the earthquake, many families lost their homes.	Depremin ardından pek çok aile evini kaybetti.	after=-den sonra	
+prep:than	The new model is lighter **than** the old one.	Yeni model eskisinden daha hafif.		then=sonra, o zaman
+prep:near	The hospital is **near** the city centre.	Hastane şehir merkezine yakın.		nearly=neredeyse
+prep:beside	She sat **beside** her mother.	Annesinin yanına oturdu.		besides=ayrıca
+prep:aside	Some money was put **aside** for emergencies.	Acil durumlar için bir miktar para kenara ayrıldı.		aside from=dışında
+prep:next-to	The library is **next to** the main building.	Kütüphane ana binanın bitişiğinde.		
+prep:in-front-of	A large crowd gathered **in front of** the parliament.	Meclisin önünde büyük bir kalabalık toplandı.		
+prep:behind	The school is **behind** the hospital.	Okul hastanenin arkasında.		
+prep:across	The new bridge goes **across** the river.	Yeni köprü nehrin karşısına uzanıyor.		
+prep:opposite	The pharmacy is **opposite** the hospital.	Eczane hastanenin karşısında.		
+prep:underneath	Water was found **underneath** the surface.	Yüzeyin altında su bulundu.	beneath=altında	
+prep:inside	The temperature **inside** the building was very high.	Binanın içindeki sıcaklık çok yüksekti.		
+prep:beneath	The ancient city lies **beneath** the modern town.	Antik kent modern kasabanın altında yatıyor.		
+prep:upon	The decision was based **upon** scientific evidence.	Karar bilimsel kanıtlara dayanıyordu.	on=üzerine	
+prep:beyond	The cost of the project went far **beyond** the budget.	Projenin maliyeti bütçenin çok ötesine geçti.		
+prep:via	The data are sent **via** satellite.	Veriler uydu üzerinden gönderiliyor.	through=aracılığıyla	
+prep:aboard	Two hundred passengers were **aboard** the ship.	Gemide iki yüz yolcu vardı.		abroad=yurt dışı
+prep:per	The drug costs ten dollars **per** dose.	İlacın doz başına maliyeti on dolar.		
+prep:versus	The study compared surgery **versus** medication.	Çalışma ameliyatı ilaç tedavisine karşı karşılaştırdı.		
+prep:back	The patient was sent **back** home after the tests.	Hasta testlerden sonra eve geri gönderildi.		
+prep:off	Keep **off** the grass.	Çimlerden uzak durun.		of=-ın
